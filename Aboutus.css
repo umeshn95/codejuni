@@ -1,0 +1,552 @@
+.PrismicTextCallout--whiteBackground {
+    background-color: var(--ui_color_white_background);
+}
+.PrismicTextCallout {
+    background-color: var(--ui_color_gray_90_background);
+    padding-bottom: 3.75rem;
+    padding-top: 3.75rem;
+}
+
+.prismic-page .UIContainer {
+    position: relative;
+    z-index: var(--z-index-1);
+}
+.UIContainer--isMaxWidthLarge {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 81.25em;
+    max-width: 64em;
+}
+
+@media screen and (max-width: 85.25em){
+.UIContainer--isFullBleed {
+    padding: 0 2.5rem;
+}}
+
+.PrismicHighlightedTexts {
+    background-color: var(--ui_color_white_background);
+    text-align: center;
+}
+
+.PrismicTextCallout--whiteBackground {
+    background-color: var(--ui_color_white_background);
+}
+.PrismicTextCallout {
+    background-color: var(--ui_color_gray_90_background);
+    padding-bottom: 3.75rem;
+    padding-top: 3.75rem;
+}
+
+.PrismicTextCallout--rightImage .PrismicTextCallout-content1{
+    flex-direction: row-reverse;
+    column-gap: 290px;
+}
+.PrismicTextCallout--rightImage .PrismicTextCallout-content2{
+    flex-direction: row;
+    column-gap: 390px;
+}
+.PrismicTextCallout--rightImage .PrismicTextCallout-content3{
+    flex-direction: row-reverse;
+    column-gap: 590px;
+}
+.PrismicTextCallout-content1{
+    display: flex;
+}
+
+
+.PrismicTextCallout-content2{
+    display: flex;
+}
+
+
+.PrismicTextCallout-content3{
+    display: flex;
+}
+
+.PrismicTextCallout--rightImage .PrismicTextCallout-image {
+    margin-left: 5.375rem;
+    
+}
+.PrismicTextCallout-image {
+    
+    flex: 1.12 0 0;
+    
+}
+.PrismicTextCallout--rightImage .PrismicTextCallout-description {
+    margin-left: 0;
+}
+.PrismicTextCallout-description {
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    
+    text-align: center;
+}
+
+.PrismicTextCallout--titleLeft {
+    text-align: left;
+}
+.UIHeading--assembly.UIHeading--two {
+    font-weight: var(--typography-heading-weight);
+    font-size: 2rem;
+    letter-spacing: normal;
+    line-height: 1.25;
+    color: var(--ui_color_default_foreground);
+    font-family: hurme_no2-webfont,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-weight: 600;
+}
+.UIHeading {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.PrismicTextCallout-description .PrismicTextCallout-descriptionWrap {
+    
+    font-weight: var(--typography-body-weight);
+    font-size: 1.25rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+
+}
+
+.PrismicTextCallout-description p {
+    min-height: 1.25rem;
+    margin: 0;
+    padding: 0;
+    display: block;
+   
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: var(--ui_color_default_foreground);
+    font-family: hurme_no2-webfont,-apple-system,BlinkMacSystemFont,sans-serif;
+    
+}
+
+.UIParagraph {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625;
+}
+.PrismicTextCallout-description .PrismicTextCallout-descriptionWrap {
+    
+    font-weight: var(--typography-body-weight);
+    font-size: 1.25rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+}
+
+.PrismicTextCallout-description .PrismicTextCallout--descriptionLeft {
+    text-align: left;
+}
+
+.PrismicTextCallout--rightImage .PrismicTextCallout-image {
+    margin-left: 5.375rem;
+}
+
+.PrismicTextCallout-image img {
+    width: 100%;
+}
+
+
+
+/* second card */
+
+.prismic-page .UIContainer {
+    position: relative;
+    z-index: var(--z-index-1);
+}
+.PrismicHighlightedTexts .UIContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.UIContainer--isMaxWidthLarge {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 81.25em;
+    max-width: 64em;
+}
+
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-2) {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    -ms-flex-item-align: end;
+}
+.UIHeading--assembly.UIHeading--two {
+    font-weight: var(--typography-heading-weight);
+    font-size: 2rem;
+    letter-spacing: normal;
+    line-height: 1.25;
+}
+
+.PrismicHighlightedTexts .UIHeading {
+    display: -webkit-flex;
+    display: flex;
+    color: var(--ui_color_gray_30);
+}
+
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-2) em {
+    background-position-y: .1em;
+    background-image: url(https://assets.quizlet.com/a/j/dist/i/prismic/scribble.6c75e80726e3401.svg);
+}
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-2) {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    -ms-flex-item-align: end;
+}
+.PrismicHighlightedTexts .UIHeading em {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-style: normal;
+    padding: 2.1875rem;
+}
+
+.PrismicHighlightedTexts .UIContainer em {
+    font-size: 2em;
+}
+
+
+.PrismicHighlightedTexts .UIHeading p {
+    
+    white-space: pre-wrap;
+    text-align: left;
+    margin-left: -1em;
+}
+
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-1) {
+    
+    align-self: center;
+    
+}
+
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-1) em {
+    padding-bottom: .5em;
+    padding-left: .25em;
+    padding-right: 0;
+    margin-right: .6em;
+    background-position-y: .45em;
+    background-image: url(https://assets.quizlet.com/a/j/dist/i/prismic/underline.f992359344c821f.svg);
+}
+
+
+.PrismicHighlightedTexts .UIContainer :nth-child(3n) em {
+    background-image: url(https://assets.quizlet.com/a/j/dist/i/prismic/shine.0e4bee555fc7a18.svg);
+}
+.PrismicHighlightedTexts .UIContainer :nth-child(3n-2) {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    -ms-flex-item-align: end;
+}
+.PrismicHighlightedTexts .UIHeading em {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-style: normal;
+    padding: 2.1875rem;
+}
+.PrismicHighlightedTexts .UIContainer em {
+    font-size: 2em;
+}
+
+.PrismicTextCallout--whiteBackground {
+    background-color: var(--ui_color_white_background);
+}
+.PrismicTextCallout {
+    background-color: var(--ui_color_gray_90_background);
+    padding-bottom: 3.75rem;
+    padding-top: 3.75rem;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+/* ingal about us */
+
+
+.relative {
+    position: relative;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+.rounded-b-2xl {
+    border-bottom-left-radius: 2rem;
+}
+.rounded-b-2xl, .rounded-r-2xl {
+    border-bottom-right-radius: 2rem;
+}
+
+/* text para */
+
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
+    font-family: Proxima Nova,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    line-height: 1.5;
+}
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-col {
+    flex-direction: row;
+}
+.flex {
+    display: flex;
+}
+@media (min-width: 640px){
+.container {
+    max-width: 640px;
+}
+.container {
+    width: 100%;
+}}
+
+/*  */
+
+.relative {
+    position: relative;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+
+.rounded-b-2xl {
+    border-bottom-left-radius: 2rem;
+}
+.rounded-b-2xl, .rounded-r-2xl {
+    border-bottom-right-radius: 2rem;
+}
+
+
+
+
+@media (min-width: 1024px){
+.lg\:items-center {
+    align-items: center;
+}}
+@media (min-width: 1024px){
+.lg\:flex-row {
+    flex-direction: row;
+}}
+@media (min-width: 768px){
+.md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}}
+
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
+}
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+@media (min-width: 1024px){
+.container {
+    max-width: 1024px;
+}}
+@media (min-width: 768px){
+.container {
+    max-width: 768px;
+}}
+@media (min-width: 640px){
+.container {
+    max-width: 640px;
+}}
+.container {
+    width: 100%;
+}
+
+@media (min-width: 768px){
+.md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}}
+
+
+
+.container{
+
+    font-family: Proxima Nova,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+line-height: 1.5;
+box-sizing: border-box;
+border: 0 solid;
+width: 100%;
+max-width: 1280px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+padding-top: 3rem;
+padding-bottom: 3rem;
+--text-opacity: 1;
+color: rgba(255,255,255,var(--text-opacity));
+padding-left: 5rem;
+padding-right: 5rem;
+flex-direction: row;
+align-items: center;
+}
+
+.container img{
+
+    font-family: Proxima Nova,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    line-height: 1.5;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    box-sizing: border-box;
+    border: 0 solid;
+    border-style: solid;
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+/* tek */
+
+
+.company-leaders{
+    padding: 144px 0 82px;
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+.site_width_about{
+    position: relative;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1279px)
+{
+.site_width_about{
+    padding: 0 20px;
+}
+
+}
+
+@media only screen and (max-width: 1360px)
+{
+.site_width_about{
+    box-sizing: border-box;
+}
+
+}
+
+.company-title .company-leaders{
+    max-width: 70%;
+    margin: 0 auto 18px;
+    font-weight: 100;
+    color: #111;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1023px)
+{ .company-leaders .company-title {
+    font-size: 40px;
+    line-height: 1.1;}
+}
+
+.company-leaders .company-intro {
+    line-height: 1.5;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.company-leaders .company-list{
+    text-align: center;
+}
+
+.company-leaders li{
+   
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+    
+}
+
+.company-list li .item-numbers, .company-leaders li .item-numbers {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: vista-slab, sans-serif;
+    font-variant-numeric: lining-nums;
+    -moz-font-feature-settings: "lnum";
+    -webkit-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+    font-size: 48px;
+    background-image: -moz-linear-gradient( -60deg, rgb(255,102,0) 0%, rgb(255,144,25) 100%);
+    background-image: -webkit-linear-gradient( 
+-60deg
+, rgb(255,102,0) 0%, rgb(255,144,25) 100%);
+    background-image: -ms-linear-gradient( -60deg, rgb(255,102,0) 0%, rgb(255,144,25) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.company-list li .main-text,  .industry-leaders li .main-text {
+    margin-bottom: 3px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.company-list li ,.company-leaders li .sub-text {
+    font-size: 15px;
+    line-height: 1.2;
+    color: #949393;
+}
+
+.ourteam_main_div{
+
+}
+
+.our_team_inner_div{
+    
+}
